@@ -72,15 +72,29 @@ button:hover {
   border-radius: 5px;
 }
 
+.todo-item input {
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
 .todo-item button {
-  background-color: #dc3545;
+  background-color: #357ddc;
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  margin-left: 5px;
 }
 
 .todo-item button:hover {
   background-color: #c82333;
+}
+
+.todo-item div {
+  display: flex;
+  gap: 5px;
 }
